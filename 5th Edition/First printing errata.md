@@ -10,3 +10,5 @@
 ###Chapter 13: UINavigationController
 * **p.214** (Dismissing by tapping elsewhere) — The signature for `backgroundTapped(_:)` should be `@IBAction func backgroundTapped(sender: UITapGestureRecognizer)` instead of `@IBAction func backgroundTapped(sender: AnyObject)`. If you followed the directions in the book, the code that Xcode generated will match this.
 
+###Chapter 19: Web Services
+* **p.331** (Bronze Challenge) — The response is of type `NSHTTPURLResponse`, not `NSURLHTTPResponse`.
